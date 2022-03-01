@@ -1,0 +1,9 @@
+{
+  "onPress": "Function<{}, void>",
+  "title": "string",
+  "accessibilityLabel": "string",
+  "accessibilityActions": "string",
+  "onAccessibilityAction": "Function<{}, void>",
+  "color": "string",
+  "disabled": "boolean"
+}

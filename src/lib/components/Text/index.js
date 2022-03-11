@@ -5,7 +5,7 @@ export function Text(props) {
   console.log(props)
   return (
     <RNText {...props}>
-      Hello World
+      {props.text}
     </RNText>
   )
 }

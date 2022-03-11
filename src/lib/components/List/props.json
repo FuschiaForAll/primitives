@@ -3,6 +3,8 @@
   "title": "List",
   "description": "Simple List",
   "icon": "List",
+  "isRootElement": false,
+  "isContainer": false,
   "width": 350,
   "height": 300,
   "properties": {

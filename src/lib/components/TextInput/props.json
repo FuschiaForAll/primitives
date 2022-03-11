@@ -3,6 +3,8 @@
   "title": "Text Input",
   "icon": "Input",
   "description": "A plain old text field",
+  "isRootElement": false,
+  "isContainer": false,
   "width": 160,
   "height": 35,
   "properties": {

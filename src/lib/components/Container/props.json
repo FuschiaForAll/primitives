@@ -3,7 +3,7 @@
   "title": "Container",
   "icon": "AutoAwesomeMosaic",
   "isRootElement": false,
-  "isContainer": false,
+  "isContainer": true,
   "description": "A plain old text field",
   "width": 160,
   "height": 35,
@@ -27,9 +27,10 @@
           "title": "Width",
           "type": "number"
         },
-        "color": {
-          "title": "Text Color",
+        "backgroundColor": {
+          "title": "Background Color",
           "type": "string",
+          "default": "#ffffff",
           "format": "color"
         }
       }

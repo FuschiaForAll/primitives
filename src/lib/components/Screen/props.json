@@ -2,6 +2,8 @@
   "type": "object",
   "title": "Screen",
   "icon": "Crop32",
+  "isRootElement": true,
+  "isContainer": true,
   "description": "A plain old text field",
   "width": 350,
   "height": 667,
@@ -25,11 +27,19 @@
       "properties": {
         "height": {
           "title": "Height",
-          "type": "number"
+          "type": "number",
+          "default": 667
         },
         "width": {
           "title": "Width",
-          "type": "number"
+          "type": "number",
+          "default": 350
+        },
+        "backgroundColor": {
+          "title": "Background Color",
+          "type": "string",
+          "default": "#ffffff",
+          "format": "color"
         }
       }
     },

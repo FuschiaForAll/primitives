@@ -3,6 +3,8 @@
   "title": "Text",
   "icon": "FormatColorText",
   "description": "A plain old text field",
+  "isRootElement": false,
+  "isContainer": false,
   "width": 160,
   "height": 35,
   "properties": {
@@ -19,16 +21,19 @@
       "properties": {
         "height": {
           "title": "Height",
-          "type": "number"
+          "type": "number",
+          "defaultValue": 24
         },
         "width": {
           "title": "Width",
-          "type": "number"
+          "type": "number",
+          "defaultValue": 160
         },
         "color": {
           "title": "Text Color",
           "type": "string",
-          "format": "color"
+          "format": "color",
+          "defaultValue": "#000000"
         }
       }
     }

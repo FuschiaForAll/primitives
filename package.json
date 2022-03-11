@@ -22,10 +22,12 @@
     "react-native": "^0.67.3",
     "react-native-web": "^0.17.6",
     "regenerator-runtime": "^0.13.9",
+    "typescript-json-schema": "^0.53.0",
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.26.1"
   }
 }

@@ -1,3 +1,36 @@
 {
-  "text": "string"
+  "type": "object",
+  "title": "Text",
+  "icon": "FormatColorText",
+  "description": "A plain old text field",
+  "width": 160,
+  "height": 35,
+  "properties": {
+    "text": {
+      "type": "string",
+      "title": "Display value",
+      "description": "The value to display",
+      "default": "Lorem Ipsum"
+    },
+    "style": {
+      "type": "object",
+      "title": "Component Styling",
+      "description": "The style for the component",
+      "properties": {
+        "height": {
+          "title": "Height",
+          "type": "number"
+        },
+        "width": {
+          "title": "Width",
+          "type": "number"
+        },
+        "color": {
+          "title": "Text Color",
+          "type": "string",
+          "format": "color"
+        }
+      }
+    }
+  }
 }

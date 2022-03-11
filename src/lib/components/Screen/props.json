@@ -1,6 +1,57 @@
 {
-  "children": [],
-  "backgroundColor": "#000000",
-  "width": "375px",
-  "height": "667px"
+  "type": "object",
+  "title": "Screen",
+  "icon": "Crop32",
+  "description": "A plain old text field",
+  "width": 350,
+  "height": 667,
+  "properties": {
+    "properties": {
+      "type": "object",
+      "title": "Properties",
+      "properties": {
+        "text": {
+          "type": "string",
+          "title": "Page Title",
+          "description": "The title for the page",
+          "default": "Page 1"
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "title": "Styles",
+      "description": "The style for the component",
+      "properties": {
+        "height": {
+          "title": "Height",
+          "type": "number"
+        },
+        "width": {
+          "title": "Width",
+          "type": "number"
+        }
+      }
+    },
+    "actions": {
+      "type":"object",
+      "title": "Actions",
+      "properties": {
+        "onEnter": {
+          "title": "On Enter",
+          "type": "string"
+        }
+      }
+    },
+    "data": {
+      "type":"object",
+      "title": "Data",
+      "properties": {
+        "something": {
+          "title": "Something",
+          "type": "string"
+        }
+      }
+    }
+  }
 }

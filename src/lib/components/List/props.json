@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "title": "List",
+  "description": "Simple List",
+  "icon": "List",
+  "width": 350,
+  "height": 300,
+  "properties": {
+    "list": {
+      "type": "array",
+      "title": "What is this list of",
+      "items": {
+        "type": "object",
+        "title": "List Item",
+        "description": "Object defining the list",
+        "properties": {
+          "name": {
+            "type": "string",
+            "defaultValue": ""
+          },
+          "age": {
+            "type": "number",
+            "defaultValue": 10
+          }
+        }
+      }
+    }
+  }
+}

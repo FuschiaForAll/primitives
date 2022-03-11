@@ -42,7 +42,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './public'),
     filename: 'bundle.js',
-    library: 'primitives',
+    library: '@fuchsia-for-all/primitives',
     libraryTarget: 'window',
   }
 }

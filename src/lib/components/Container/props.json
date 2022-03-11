@@ -1,18 +1,18 @@
 {
   "type": "object",
-  "title": "Button",
-  "icon": "SmartButton",
+  "title": "Container",
+  "icon": "AutoAwesomeMosaic",
   "isRootElement": false,
   "isContainer": false,
   "description": "A plain old text field",
   "width": 160,
   "height": 35,
   "properties": {
-    "text": {
-      "type": "string",
-      "title": "Display value",
-      "description": "The value to display",
-      "default": "Lorem Ipsum"
+      "text": {
+        "type": "string",
+        "title": "Display value",
+        "description": "The value to display",
+        "default": "Lorem Ipsum"
     },
     "style": {
       "type": "object",
